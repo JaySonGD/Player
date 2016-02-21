@@ -559,7 +559,22 @@
 }
 
 
-
+/**
+ *  从 bundle 加载一个 view
+ *
+ *  @param name 名字
+ *
+ *  @return 返回一个 view
+ */
++ (instancetype)viewFromXib
+{
+    NSString *className = NSStringFromClass([self class]);
+    id object = [[[NSBundle mainBundle]loadNibNamed:className owner:nil options:nil]firstObject];
+    if ([object isKindOfClass:[self class]]) {
+        return object;
+    }
+    return  nil;
+}
 
 
 - (void)awakeFromNib

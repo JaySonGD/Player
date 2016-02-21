@@ -15,7 +15,6 @@
 		ABA72F281C746B3D007E09FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA72F261C746B3D007E09FE /* LaunchScreen.storyboard */; };
 		ABA72F331C746B3D007E09FE /* playerdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA72F321C746B3D007E09FE /* playerdemoTests.m */; };
 		ABA72F3E1C746B3D007E09FE /* playerdemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA72F3D1C746B3D007E09FE /* playerdemoUITests.m */; };
-		ABA72F711C7472A1007E09FE /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA72F701C7472A1007E09FE /* UIView+Frame.m */; };
 		ABB34D1A1C79D39000DAAF27 /* CZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB34D171C79D39000DAAF27 /* CZPlayer.m */; };
 		ABB34D1B1C79D39000DAAF27 /* CZPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB34D181C79D39000DAAF27 /* CZPlayer.xib */; };
 		ABB34D1C1C79D39000DAAF27 /* player.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ABB34D191C79D39000DAAF27 /* player.bundle */; };
@@ -55,8 +54,6 @@
 		ABA72F391C746B3D007E09FE /* playerdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playerdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA72F3D1C746B3D007E09FE /* playerdemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playerdemoUITests.m; sourceTree = "<group>"; };
 		ABA72F3F1C746B3D007E09FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABA72F6F1C7472A1007E09FE /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		ABA72F701C7472A1007E09FE /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		ABB34D161C79D39000DAAF27 /* CZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZPlayer.h; sourceTree = "<group>"; };
 		ABB34D171C79D39000DAAF27 /* CZPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZPlayer.m; sourceTree = "<group>"; };
 		ABB34D181C79D39000DAAF27 /* CZPlayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZPlayer.xib; sourceTree = "<group>"; };
@@ -117,7 +114,6 @@
 				ABB34D151C79D39000DAAF27 /* player */,
 				ABA72F1F1C746B3D007E09FE /* ViewController.m */,
 				ABA72F211C746B3D007E09FE /* Main.storyboard */,
-				ABA72F6E1C7472A1007E09FE /* UIView+Frame */,
 				ABA72F241C746B3D007E09FE /* Assets.xcassets */,
 				ABA72F261C746B3D007E09FE /* LaunchScreen.storyboard */,
 				ABA72F291C746B3D007E09FE /* Info.plist */,
@@ -150,15 +146,6 @@
 				ABA72F3F1C746B3D007E09FE /* Info.plist */,
 			);
 			path = playerdemoUITests;
-			sourceTree = "<group>";
-		};
-		ABA72F6E1C7472A1007E09FE /* UIView+Frame */ = {
-			isa = PBXGroup;
-			children = (
-				ABA72F6F1C7472A1007E09FE /* UIView+Frame.h */,
-				ABA72F701C7472A1007E09FE /* UIView+Frame.m */,
-			);
-			path = "UIView+Frame";
 			sourceTree = "<group>";
 		};
 		ABB34D151C79D39000DAAF27 /* player */ = {
@@ -311,7 +298,6 @@
 				ABA72F1D1C746B3D007E09FE /* AppDelegate.m in Sources */,
 				ABA72F1A1C746B3D007E09FE /* main.m in Sources */,
 				ABB34D1A1C79D39000DAAF27 /* CZPlayer.m in Sources */,
-				ABA72F711C7472A1007E09FE /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

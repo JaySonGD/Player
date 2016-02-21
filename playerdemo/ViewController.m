@@ -7,12 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "UIView+Frame.h"
 #import "CZPlayer.h"
 
 @interface ViewController ()
-/** <##> */
+
 @property (nonatomic, weak) CZPlayer *player;
+
 @end
 
 @implementation ViewController
@@ -22,12 +22,12 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     CZPlayer *playerView = [CZPlayer viewFromXib];
-    //playerView.center = self.view.center;
     _player = playerView;
     [self.view addSubview:playerView];
-    playerView.width = self.view.width;
-    playerView.height = self.view.width*9/16;
-    //playerView.autoFullSreen = YES;
+
+    
+    playerView.frame = CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.width *9 /16);
+
     playerView.videoURLStr = @"http://wvideo.spriteapp.cn/video/2016/0215/56c18a0715221_wpd.mp4";
     
     playerView.finishedPlayMedia = ^{

@@ -24,5 +24,5 @@
 
 @property (nonatomic, assign) BOOL autoFullSreen;
 
-
++ (instancetype)viewFromXib;
 @end
